@@ -1,0 +1,2 @@
+astar_planner:dwa_planner:p3dx-noetic-devel/p3dx_control:p3dx-noetic-devel/p3dx_description:p3dx-noetic-devel/p3dx_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/dian/ROS/autoLab/DWA/devel -DCMAKE_INSTALL_PREFIX=/home/dian/ROS/autoLab/DWA/install -G Unix Makefiles

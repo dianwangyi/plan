@@ -1,0 +1,8 @@
+prefix=/home/dian/ROS/autoLab/DWA/devel
+
+Name: dwa_planner
+Description: Description of dwa_planner
+Version: 0.0.0
+Cflags: -I/home/dian/ROS/autoLab/DWA/src/dwa_planner/include
+Libs: -L${prefix}/lib -ldwa_planner
+Requires: base_local_planner costmap_2d nav_core nav_msgs pluginlib roscpp tf tf2

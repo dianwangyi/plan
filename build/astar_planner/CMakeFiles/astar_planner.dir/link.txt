@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libastar_planner.so -o /home/dian/ROS/autoLab/DWA/devel/lib/libastar_planner.so CMakeFiles/astar_planner.dir/src/astar.cpp.o 
