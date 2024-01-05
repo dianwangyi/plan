@@ -5,6 +5,7 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
+        - /MarkerArray1
       Splitter Ratio: 0.6050959825515747
     Tree Height: 734
   - Class: rviz/Selection
@@ -222,10 +223,10 @@ Visualization Manager:
       Visual Enabled: true
     - Class: rviz/MarkerArray
       Enabled: true
-      Marker Topic: /move_base/AstarGlobalPlanner/normals_marker_array
+      Marker Topic: /move_base/AstarGlobalPlannercorr_gen/corridors
       Name: MarkerArray
       Namespaces:
-        {}
+        corridors: true
       Queue Size: 100
       Value: true
   Enabled: true
@@ -256,7 +257,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 32.749488830566406
+      Distance: 8.732394218444824
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -264,9 +265,9 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 2.5668723583221436
-        Y: 4.267179012298584
-        Z: -0.9474098682403564
+        X: -1.454167127609253
+        Y: 0.40484240651130676
+        Z: -0.9512802958488464
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false

@@ -3,6 +3,10 @@ file(REMOVE_RECURSE
   "/home/dian/ROS/autoLab/DWA/devel/lib/libastar_planner.so"
   "CMakeFiles/astar_planner.dir/src/astar.cpp.o"
   "CMakeFiles/astar_planner.dir/src/astar.cpp.o.d"
+  "CMakeFiles/astar_planner.dir/src/astar_planner.cpp.o"
+  "CMakeFiles/astar_planner.dir/src/astar_planner.cpp.o.d"
+  "CMakeFiles/astar_planner.dir/src/corr_gen.cpp.o"
+  "CMakeFiles/astar_planner.dir/src/corr_gen.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

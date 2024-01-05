@@ -1,7 +1,7 @@
-astar_planner/CMakeFiles/astar_planner.dir/src/astar.cpp.o: \
- /home/dian/ROS/autoLab/DWA/src/astar_planner/src/astar.cpp \
+astar_planner/CMakeFiles/astar_planner.dir/src/corr_gen.cpp.o: \
+ /home/dian/ROS/autoLab/DWA/src/astar_planner/src/corr_gen.cpp \
  /usr/include/stdc-predef.h \
- /home/dian/ROS/autoLab/DWA/src/astar_planner/include/astar.h \
+ /home/dian/ROS/autoLab/DWA/src/astar_planner/include/corr_gen.h \
  /opt/ros/noetic/include/costmap_2d/costmap_2d_ros.h \
  /opt/ros/noetic/include/costmap_2d/layered_costmap.h \
  /opt/ros/noetic/include/costmap_2d/cost_values.h \
@@ -1792,4 +1792,5 @@ astar_planner/CMakeFiles/astar_planner.dir/src/astar.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
  /opt/ros/noetic/include/visualization_msgs/MarkerArray.h \
  /opt/ros/noetic/include/visualization_msgs/Marker.h \
- /opt/ros/noetic/include/std_msgs/ColorRGBA.h
+ /opt/ros/noetic/include/std_msgs/ColorRGBA.h \
+ /home/dian/ROS/autoLab/DWA/src/astar_planner/include/astar.h

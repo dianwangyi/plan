@@ -1,6 +1,7 @@
-astar_planner/CMakeFiles/astar_planner.dir/src/astar.cpp.o: \
- /home/dian/ROS/autoLab/DWA/src/astar_planner/src/astar.cpp \
+astar_planner/CMakeFiles/astar_planner.dir/src/astar_planner.cpp.o: \
+ /home/dian/ROS/autoLab/DWA/src/astar_planner/src/astar_planner.cpp \
  /usr/include/stdc-predef.h \
+ /home/dian/ROS/autoLab/DWA/src/astar_planner/include/astar_planner.h \
  /home/dian/ROS/autoLab/DWA/src/astar_planner/include/astar.h \
  /opt/ros/noetic/include/costmap_2d/costmap_2d_ros.h \
  /opt/ros/noetic/include/costmap_2d/layered_costmap.h \
@@ -1792,4 +1793,22 @@ astar_planner/CMakeFiles/astar_planner.dir/src/astar.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
  /opt/ros/noetic/include/visualization_msgs/MarkerArray.h \
  /opt/ros/noetic/include/visualization_msgs/Marker.h \
- /opt/ros/noetic/include/std_msgs/ColorRGBA.h
+ /opt/ros/noetic/include/std_msgs/ColorRGBA.h \
+ /home/dian/ROS/autoLab/DWA/src/astar_planner/include/corr_gen.h \
+ /opt/ros/noetic/include/tf/tf.h /opt/ros/noetic/include/tf/exceptions.h \
+ /opt/ros/noetic/include/tf/time_cache.h \
+ /opt/ros/noetic/include/tf/transform_datatypes.h \
+ /opt/ros/noetic/include/geometry_msgs/PointStamped.h \
+ /opt/ros/noetic/include/geometry_msgs/Vector3Stamped.h \
+ /opt/ros/noetic/include/geometry_msgs/QuaternionStamped.h \
+ /opt/ros/noetic/include/tf/LinearMath/Transform.h \
+ /opt/ros/noetic/include/tf/LinearMath/Matrix3x3.h \
+ /opt/ros/noetic/include/tf/LinearMath/Vector3.h \
+ /opt/ros/noetic/include/tf/LinearMath/Scalar.h \
+ /opt/ros/noetic/include/tf/LinearMath/MinMax.h \
+ /opt/ros/noetic/include/tf/LinearMath/Quaternion.h \
+ /opt/ros/noetic/include/tf/LinearMath/QuadWord.h \
+ /opt/ros/noetic/include/geometry_msgs/TwistStamped.h \
+ /opt/ros/noetic/include/geometry_msgs/Twist.h \
+ /opt/ros/noetic/include/pluginlib/class_list_macros.h \
+ /opt/ros/noetic/include/pluginlib/./class_list_macros.hpp

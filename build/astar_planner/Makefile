@@ -503,6 +503,54 @@ src/astar.cpp.s:
 	cd /home/dian/ROS/autoLab/DWA/build && $(MAKE) $(MAKESILENT) -f astar_planner/CMakeFiles/astar_planner.dir/build.make astar_planner/CMakeFiles/astar_planner.dir/src/astar.cpp.s
 .PHONY : src/astar.cpp.s
 
+src/astar_planner.o: src/astar_planner.cpp.o
+.PHONY : src/astar_planner.o
+
+# target to build an object file
+src/astar_planner.cpp.o:
+	cd /home/dian/ROS/autoLab/DWA/build && $(MAKE) $(MAKESILENT) -f astar_planner/CMakeFiles/astar_planner.dir/build.make astar_planner/CMakeFiles/astar_planner.dir/src/astar_planner.cpp.o
+.PHONY : src/astar_planner.cpp.o
+
+src/astar_planner.i: src/astar_planner.cpp.i
+.PHONY : src/astar_planner.i
+
+# target to preprocess a source file
+src/astar_planner.cpp.i:
+	cd /home/dian/ROS/autoLab/DWA/build && $(MAKE) $(MAKESILENT) -f astar_planner/CMakeFiles/astar_planner.dir/build.make astar_planner/CMakeFiles/astar_planner.dir/src/astar_planner.cpp.i
+.PHONY : src/astar_planner.cpp.i
+
+src/astar_planner.s: src/astar_planner.cpp.s
+.PHONY : src/astar_planner.s
+
+# target to generate assembly for a file
+src/astar_planner.cpp.s:
+	cd /home/dian/ROS/autoLab/DWA/build && $(MAKE) $(MAKESILENT) -f astar_planner/CMakeFiles/astar_planner.dir/build.make astar_planner/CMakeFiles/astar_planner.dir/src/astar_planner.cpp.s
+.PHONY : src/astar_planner.cpp.s
+
+src/corr_gen.o: src/corr_gen.cpp.o
+.PHONY : src/corr_gen.o
+
+# target to build an object file
+src/corr_gen.cpp.o:
+	cd /home/dian/ROS/autoLab/DWA/build && $(MAKE) $(MAKESILENT) -f astar_planner/CMakeFiles/astar_planner.dir/build.make astar_planner/CMakeFiles/astar_planner.dir/src/corr_gen.cpp.o
+.PHONY : src/corr_gen.cpp.o
+
+src/corr_gen.i: src/corr_gen.cpp.i
+.PHONY : src/corr_gen.i
+
+# target to preprocess a source file
+src/corr_gen.cpp.i:
+	cd /home/dian/ROS/autoLab/DWA/build && $(MAKE) $(MAKESILENT) -f astar_planner/CMakeFiles/astar_planner.dir/build.make astar_planner/CMakeFiles/astar_planner.dir/src/corr_gen.cpp.i
+.PHONY : src/corr_gen.cpp.i
+
+src/corr_gen.s: src/corr_gen.cpp.s
+.PHONY : src/corr_gen.s
+
+# target to generate assembly for a file
+src/corr_gen.cpp.s:
+	cd /home/dian/ROS/autoLab/DWA/build && $(MAKE) $(MAKESILENT) -f astar_planner/CMakeFiles/astar_planner.dir/build.make astar_planner/CMakeFiles/astar_planner.dir/src/corr_gen.cpp.s
+.PHONY : src/corr_gen.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -541,6 +589,12 @@ help:
 	@echo "... src/astar.o"
 	@echo "... src/astar.i"
 	@echo "... src/astar.s"
+	@echo "... src/astar_planner.o"
+	@echo "... src/astar_planner.i"
+	@echo "... src/astar_planner.s"
+	@echo "... src/corr_gen.o"
+	@echo "... src/corr_gen.i"
+	@echo "... src/corr_gen.s"
 .PHONY : help
 
 

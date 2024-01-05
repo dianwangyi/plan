@@ -42,6 +42,8 @@ include_directories(
 ## Declare a C++ library
 add_library(${PROJECT_NAME}
   src/astar.cpp
+  src/astar_planner.cpp
+  src/corr_gen.cpp
   # src/better_astar.cpp
 )
 
